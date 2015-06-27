@@ -20,7 +20,7 @@ var http = require('https');
 var util = require('util');
 var events = require('events');
 
-function Adm(client_id, client_secret) {
+var Adm = function(client_id, client_secret) {
     this.requestBody = 'grant_type=client_credentials&client_id=' + encodeURIComponent(client_id) + '&client_secret=' +
 					   encodeURIComponent(client_secret) + '&scope=http://api.microsofttranslator.com/';
 
