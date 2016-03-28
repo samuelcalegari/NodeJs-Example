@@ -1,0 +1,12 @@
+{
+  "name": "NodejsSpeechTranslateApp",
+  "description": "NodejsSpeechTranslateApp",
+  "main": "app.js",
+  "author": {
+  },
+  "dependencies": {
+    "request": "^2.69.0",
+    "stream-buffers": "^3.0.0",
+    "websocket": "^1.0.22"
+  }
+}
